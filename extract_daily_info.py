@@ -45,18 +45,18 @@ def lambda_handler(event, context):
             }
         )
     
-    # Define API URLs
+    # Define API URLs ## I hide the personal API key to XXX. 
     api_urls = [
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=VOO&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=QQQ&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SCHG&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=GOOGL&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=META&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=NVDA&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=TSLA&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
-    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AMZN&outputsize=compact&apikey=L9G4TXLTQ61J2H3X"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=VOO&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=QQQ&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SCHG&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=GOOGL&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=META&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=NVDA&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=TSLA&outputsize=compact&apikey=xxx"
+    "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AMZN&outputsize=compact&apikey=xxx"
     ]
     # Fetch data and send to Firehose for APIs
     for api_url in api_urls:
