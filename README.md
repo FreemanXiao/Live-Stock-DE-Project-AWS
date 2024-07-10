@@ -6,10 +6,16 @@ This project centers on advanced data engineering techniques applied to the S&P 
 
 Stocks & ETFs Featured in the Project:
 - ETF:
-      VOO (Vanguard S&P 500 ETF, Track S&P 500);
-      QQQ (Invesco QQQ Trust Series 1, Track NASDAQ);
-      SCHG (Schwab US Large-Cap Growth ETF, Track Dow Jones U.S. Large-Cap Growth)
-- Stock (Magnificent 7): AAPL (Apple Inc.); AMZN (Amazon.com Inc.); META (Meta Platforms, Inc.); GOOGL (Alphabet Inc.); MSFT (Microsoft Corporation); NVDA (Nvidia Corporation); TSLA (Tesla, Inc.)
+      **VOO** (Vanguard S&P 500 ETF, Track S&P 500);
+      **QQQ** (Invesco QQQ Trust Series 1, Track NASDAQ);
+      **SCHG** (Schwab US Large-Cap Growth ETF, Track Dow Jones U.S. Large-Cap Growth)
+- Stock (Magnificent 7):
+      **AAPL** (Apple Inc.);
+      **AMZN** (Amazon.com Inc.);
+      **META** (Meta Platforms, Inc.);
+      **GOOGL** (Alphabet Inc.);
+      **MSFT** (Microsoft Corporation);
+      **NVDA** (Nvidia Corporation); TSLA (Tesla, Inc.)
 
 ## Key Features
 
