@@ -14,7 +14,7 @@ The key features of the entire project center around two main components: a Serv
 
 - ### Serverless Automated Data Pipeline by AWS
 The project primarily utilizes several AWS services to achieve full automation of data transmission, as depicted in the diagram:
-
+![alt text](Graph_snapshot/Architecture Diagram.png)
 
 - ### Daily Updated Stock Dashboard & Analysis
 
