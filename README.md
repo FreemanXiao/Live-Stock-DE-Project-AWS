@@ -5,7 +5,10 @@
 This project centers on advanced data engineering techniques applied to the S&P 500 index, NASDAQ index, and data from seven major US tech giants. Leveraging AWS serverless technology, we've implemented a sophisticated ETL pipeline orchestration to seamlessly ingest, transform, and analyze daily stock and ETF data sourced via the Alpha Vantage API. Our primary objective is to provide detailed daily stock updates, summaries of stock information over a period of time, and perform rigorous analysis, with a specific emphasis on technology stocks and trends in the US stock market, particularly focusing on large-cap technology stocks and market trends.
 
 Stocks & ETFs Featured in the Project:
-- ETF: VOO (Vanguard S&P 500 ETF, Track S&P 500); QQQ (Invesco QQQ Trust Series 1, Track NASDAQ); SCHG (Schwab US Large-Cap Growth ETF, Track Dow Jones U.S. Large-Cap Growth)
+- ETF:
+-   VOO (Vanguard S&P 500 ETF, Track S&P 500);
+-   QQQ (Invesco QQQ Trust Series 1, Track NASDAQ);
+-   SCHG (Schwab US Large-Cap Growth ETF, Track Dow Jones U.S. Large-Cap Growth)
 - Stock (Magnificent 7): AAPL (Apple Inc.); AMZN (Amazon.com Inc.); META (Meta Platforms, Inc.); GOOGL (Alphabet Inc.); MSFT (Microsoft Corporation); NVDA (Nvidia Corporation); TSLA (Tesla, Inc.)
 
 ## Key Features
