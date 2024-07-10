@@ -10,6 +10,8 @@ Stocks & ETFs Featured in the Project:
 
 ## Key Features
 
+It's all about 
+
 ## Want to Answer...
 
 ## Data Pipeline with ELT Execution
