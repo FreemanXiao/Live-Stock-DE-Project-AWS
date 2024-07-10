@@ -16,6 +16,7 @@ The key features of the entire project center around two main components: a Serv
 The project primarily utilizes several AWS services to achieve full automation of data transmission, as depicted in the diagram:
 
 ![architecture](Graph_snapshot/Architecture_Diagram.png) 
+The entire automated process unfolds as follows: Lambda functions connect to the API and import data, which is then routed to Kinesis Data Firehose for scheduled delivery to S3. Next, a Glue crawler connects to S3, retrieves stored data, and auto-generates databases and tables in Athena. The comprehensive data tables are linked with Glue to initiate incremental Glue jobs for further cleansing, validation, and transformation. Orchestration Jobs sequence the complete linear Glue workflow. Finally, upon running the entire job workflow, fully usable data tables are generated in Athena. S3, databases, and tables are connected to external Grafana for dashboard construction. The entire process is automated using AWS EventBridge schedules for periodic execution, with CloudWatch Logs ensuring monitoring and oversight of runtime outcomes.
 
 - ### Daily Updated Stock Dashboard & Analysis
 
