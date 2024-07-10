@@ -8,7 +8,7 @@
 
 ## Data Pipeline with ELT Execution
 
-## Data Visulization Example
+## Data Visualization Example
 
 
 
