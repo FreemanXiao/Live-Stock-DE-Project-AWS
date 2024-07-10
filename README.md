@@ -29,6 +29,8 @@ The entire automated process unfolds as follows: Lambda functions connect to the
 
 - ### Daily Updated Stock Dashboard & Analysis
 
+The project aims to deliver daily updates of stock information aligned with US stock market opening dates, ensuring the dashboard reflects up-to-date historical trading records and key metrics such as trading volume, daily range, and post-market closure changes. The dashboard provides detailed insights into the performance of seven prominent US technology companies and the three primary US market indices, highlighting trends in price movements, trading volumes, and temporal correlations. Users can leverage filters for horizontal stock comparisons and temporal analyses to derive customized insights tailored to specific analytical requirements. For enthusiasts of large-cap US tech stocks and in-depth US market trends, this dashboard offers comprehensive information and robust analysis capabilities.
+
 
 
 ## Want to Answer...
