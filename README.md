@@ -1,4 +1,4 @@
-# S&P 500, NASDAQ, and The Magnificent 7: Live Stock & ETF Data Engineering Project – Serverless on AWS
+# S&P 500, NASDAQ, and The Magnificent 7: Live Stock & ETF Data Engineering Project – Serverless on AWS 🚀🚀🚀
 
 ## Project Overview
 
