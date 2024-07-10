@@ -12,9 +12,9 @@ Stocks & ETFs Featured in the Project:
 
 The key features of the entire project center around two main components: a Serverless Automated Data Pipeline and a Daily Updated Stock Dashboard. The former focuses on building the core data transmission process on AWS, encompassing the fully automated ETL pipeline from data retrieval via the Alpha Vantage API to the final Grafana Dashboard. The latter highlights the project's outcomes, providing daily updates on major US tech companies and stock market indices, along with in-depth analytical insights.
 
-### Serverless Automated Data Pipeline by AWS
+- ### Serverless Automated Data Pipeline by AWS
 
-### Daily Updated Stock Dashboard & Analysis
+- ### Daily Updated Stock Dashboard & Analysis
 
 ## Want to Answer...
 
