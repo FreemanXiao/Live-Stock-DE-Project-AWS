@@ -43,7 +43,7 @@ This project presents daily updated information on the US stock market indices a
  5. Based on the daily price changes and range data from the past 100 days, what are the volatility patterns of TSLA and MSFT, and how do these patterns correlate with their respective trading volumes and market sentiments? Additionally, how might these volatility trends impact the short-term investment strategies for both stocks?
 
 ## Data Pipeline with ELT Execution 🛤️🛤️
- 1. We utilize AWS Lambda to fetch stock daily history data from the Alpha Vantage API and stream it into AWS Firehose. This process is handled by: [lambda_API_function]([https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/Lambda_function/lambda_ingest_100_day_info.py])
+ 1. We utilize AWS Lambda to fetch stock daily history data from the Alpha Vantage API and stream it into AWS Firehose. This process is handled by: [lambda_API_history_function]([https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/Lambda_function/lambda_ingest_100_day_info.py])
 
 
 
