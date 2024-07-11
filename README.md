@@ -22,15 +22,14 @@ Stocks & ETFs Featured in the Project:
 
 The key features of the entire project center around two main components: a Serverless Automated Data Pipeline and a Daily Updated Stock Dashboard. The former focuses on building the core data transmission process on AWS, encompassing the fully automated ETL pipeline from data retrieval via the Alpha Vantage API to the final Grafana Dashboard. The latter highlights the project's outcomes, providing daily updates on major US tech companies and stock market indices, along with in-depth analytical insights.
 
- - ### Serverless Automated Data Pipeline by AWS
+- ### Serverless Automated Data Pipeline by AWS
 The project primarily utilizes several AWS services to achieve full automation of data transmission, as depicted in the diagram:
 
 ![architecture](Graph_snapshot/Architecture_Diagram.png) 
 
 The entire automated process unfolds as follows: Lambda functions connect to the API and import data, which is then routed to Kinesis Data Firehose for scheduled delivery to S3. Next, a Glue crawler connects to S3, retrieves stored data, and auto-generates databases and tables in Athena. The comprehensive data tables are linked with Glue to initiate incremental Glue jobs for further cleansing, validation, and transformation. Orchestration Jobs sequence the complete linear Glue workflow. Finally, upon running the entire job workflow, fully usable data tables are generated in Athena. S3, databases, and tables are connected to external Grafana for dashboard construction. The entire process is automated using AWS EventBridge schedules for periodic execution, with CloudWatch Logs ensuring monitoring and oversight of runtime outcomes.
 
- - ### Daily Updated Stock Dashboard & Analysis
-
+- ### Daily Updated Stock Dashboard & Analysis
 The project aims to deliver daily updates of stock information aligned with US stock market opening dates, ensuring the dashboard reflects up-to-date historical trading records and key metrics such as trading volume, daily range, and post-market closure changes. The dashboard provides detailed insights into the performance of seven prominent US technology companies and the three primary US market indices, highlighting trends in price movements, trading volumes, and temporal correlations. Users can leverage filters for horizontal stock comparisons and temporal analyses to derive customized insights tailored to specific analytical requirements. For enthusiasts of large-cap US tech stocks and in-depth US market trends, This dashboard provides comprehensive information and historical data foundation.
 
 ## Want to Answer...
