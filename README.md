@@ -48,7 +48,7 @@ This project presents daily updated information on the US stock market indices a
  3. Following the first two steps, AWS Firehose will automatically deposit the received data into the designated **S3 bucket** based on a predefined schedule or data volume threshold.
  4. An **AWS Glue Crawler** crawls all data in the S3 bucket and automatically generates a database and initial table in **AWS Athena**.
  5. An **AWS Glue workflow** consists of four jobs that will initialize and create a comprehensive production table for future analytics tasks in AWS Athena:
-
+     - 
 
 
 
