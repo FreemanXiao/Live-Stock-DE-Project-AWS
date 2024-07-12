@@ -84,3 +84,6 @@ The primary objective of this project is to implement a comprehensive serverless
 
 Areas for improvement include optimizing the pipeline with additional AWS services tailored to diverse application needs. For instance, scaling up with AWS EC2 for server-side projects as demand grows for updated data, or deploying AWS Redshift for faster data retrieval and efficient data warehousing storage, would be beneficial. Moreover, enhancing dashboard capabilities to include functionalities such as weekday comparisons or advanced stock information retrieval would enhance usability.
 
+## Acknowledgements
+
+Special thanks to David Freitag and his comprehesive data engineering project course: [Build Your First Serverless Data Engineering Project Course](https://maven.com/david-freitag/first-serverless-de-project).
