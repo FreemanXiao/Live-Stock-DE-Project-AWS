@@ -6,7 +6,7 @@ This project centers on advanced data engineering techniques applied to the S&P 
 
 Tech Stack:
  - [Amazon Web Services (AWS)](https://aws.amazon.com)：AWS Lamda, AWS S3, AWS Glue, AWS Kinesis, AWS IAM, Amazon Firehose, Amazon Athena, AWS CloudWatch, AWS EventBridge
- - [Grafana](https://grafana.com/)
+ - [Grafana Labs](https://grafana.com/)
  - Python & SQL
 
 Stocks & ETFs Featured in the Project:
