@@ -86,4 +86,4 @@ Areas for improvement include optimizing the pipeline with additional AWS servic
 
 ## Acknowledgements
 
-Special thanks to David Freitag and his comprehesive data engineering project course: [Build Your First Serverless Data Engineering Project Course](https://maven.com/david-freitag/first-serverless-de-project).
+Special thanks to David Freitag and his comprehensive data engineering project course: [Build Your First Serverless Data Engineering Project Course](https://maven.com/david-freitag/first-serverless-de-project).
