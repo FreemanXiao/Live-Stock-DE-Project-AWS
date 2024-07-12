@@ -63,8 +63,14 @@ Here is a snapshot of the latest dashboard as of July 11, 2024....following a wh
 Some interesting screenshort here:
  - Visualizations depict the performance of QQQ in July:
 
+![QQQ_in_July](https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/grafana_screenshot/qqq_info.png)
+
  - Increasing in percentage for AMZN, GOOGL, and VOO:
 
+![Increase_rate](https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/grafana_screenshot/Increase_rate_Amzn_voo_googl.png)
+
  - Daily price change range and volume of NVDA, TSLA, and SCHG:
+
+![Daily_range_volume](https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/grafana_screenshot/daily_NVDA_SCHG_TSLA.png)
 
 ## Conclusion 🏜️🏜️
