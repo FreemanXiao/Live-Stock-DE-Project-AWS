@@ -62,7 +62,7 @@ Between each job, fixed triggers are used to ensure that the next job starts onl
 
 ## Data Visualization Example 📊📊
 
-After completing the comprehensive data engineering pipeline and ETL process, we have seamlessly integrated the database with Grafana to commence dashboard development. Besides creating the visuals, the dashboard also contain a time variable and stock selection variable with option of single, mulitiple and all stock selected. 
+After completing the comprehensive data engineering pipeline and ETL process, we have seamlessly integrated the database with Grafana to commence dashboard development. Here are some SQL query examples for the Grafana visuals: [Grafana Visuals Query](https://github.com/FreemanXiao/Live-Stock-DE-Project-AWS/blob/main/Grafana_Visuals_Query.sql). Besides creating the visuals, the dashboard also contain a time variable and stock selection variable with option of single, mulitiple and all stock selected. 
 Here is a snapshot of the latest dashboard as of July 11, 2024....following a whole day market downturn: [Grafana_Snapshot_07_11_24](https://xiaozhang19981117.grafana.net/dashboard/snapshot/Ege8kThI7gKZzzvK9VDBie5bjMJfdAKB)
 
 Some interesting screenshort here:
